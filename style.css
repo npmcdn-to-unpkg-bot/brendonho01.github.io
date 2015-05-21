@@ -1,12 +1,37 @@
+body{
+  background-color: #fff;
+}
 #title{
   font-family: sans-serif;
   font-weight: 200;
   text-align: center;
+  font-size: 35;
   
 }
 a{
-  color: black;
+  color: white;
   font-family: sans-serif;
   text-align: center;
+  font-size: 15;
 }
-
+#desc{
+  color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 20;
+}
+#aboutbho{
+  color: white;
+  font-family: sans-serif;
+  font-weight: 200;
+  text-align: center;
+  font-size: 20;
+}
+.aboutbhodesc{
+  color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 15;
+}
