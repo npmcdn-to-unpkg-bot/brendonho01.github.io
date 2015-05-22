@@ -17,6 +17,14 @@ a{
   font-size: 15;
   position: fixed;
 }
+#aml{
+color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 15;
+  position: fixed;
+  margin-left-50
+}
 #desc{
   color: white;
   font-family: sans-serif;
