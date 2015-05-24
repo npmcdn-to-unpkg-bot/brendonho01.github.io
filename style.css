@@ -13,7 +13,7 @@ body{
 #top{
   color: white;
   font-family: sans-serif;
-  text-align: center;
+  
   font-size: 15;
   position: fixed;
   margin-left: 15;
@@ -21,7 +21,7 @@ body{
 #aml{
 color: white;
   font-family: sans-serif;
-  text-align: center;
+  
   font-size: 15;
   position: fixed;
   margin-left: 60;
