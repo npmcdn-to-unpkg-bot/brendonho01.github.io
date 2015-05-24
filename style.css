@@ -16,6 +16,7 @@ body{
   text-align: center;
   font-size: 15;
   position: fixed;
+  margin-left: 15;
 }
 #aml{
 color: white;
