@@ -7,11 +7,11 @@ body{
   font-weight: 500;
   text-align: center;
   font-size: 60;
-  color: white;
+  color: #c0c0c0;
   margin-top: 200;
 }
 #top{
-  color: white;
+  color: #c0c0c0;
   font-family: sans-serif;
   font-size: 15;
   position: fixed;
@@ -19,7 +19,7 @@ body{
 margin-top: -180;
 }
 #aml{
-color: white;
+color: #c0c0c0;
   font-family: sans-serif;
   font-size: 15;
   position: fixed;
@@ -28,7 +28,7 @@ margin-top: -180;
 
 }
 #desc{
-  color: white;
+  color: #c0c0c0;
   font-family: sans-serif;
   font-weight: 100;
   text-align: center;
@@ -36,7 +36,7 @@ margin-top: -180;
   margin-top: 30;
 }
 #aboutbho{
-  color: white;
+  color: #c0c0c0;
   font-family: sans-serif;
   font-weight: 400;
   text-align: center;
@@ -44,7 +44,7 @@ margin-top: -180;
   margin-top: 350;
 }
 .aboutbhodesc{
-  color: white;
+  color: #c0c0c0;
   font-family: sans-serif;
   font-weight: 400;
   text-align: center;
@@ -52,7 +52,7 @@ margin-top: -180;
   margin-top: 20;
 }
 #contact{
-  color: white;
+  color: #c0c0c0;
   font-family: sans-serif;
   font-weight: 200;
   text-align: center;
@@ -60,7 +60,7 @@ margin-top: -180;
   margin-top: 200;
 }
 #appsmade{
-  color: white;
+  color: #c0c0c0;
   font-family: sans-serif;
   font-weight: 200;
   text-align: center;
@@ -68,12 +68,12 @@ margin-top: -180;
   margin-top: 350;
 }
 #googpl{
-  color: white;
+  color: #c0c0c0;
   font-family: sans-serif;
   font-weight: 100;
 }
 #abl{
-color: white;
+color: #c0c0c0;
 font-family: sans-serif;
 font-size:15;
 position: fixed;
