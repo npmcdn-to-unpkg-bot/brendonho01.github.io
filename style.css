@@ -1,5 +1,5 @@
 body{
-  
+  background-image: url("http://khongthe.com/wallpapers/architecture/city-street-224368.jpg");
   background-color: white;
 }
 #title{
@@ -84,12 +84,10 @@ img{
   margin-top: 35;
   margin-left: 650;
 }
-header{
-  background-image: url("http://khongthe.com/wallpapers/architecture/city-street-224368.jpg");
-  padding-bottom: 300px;
-  padding-top: 100px;
-}
+
 #made{
   background-color: black;
   padding-bottom: 300px;
+  padding-left:100px;
+  padding-right: 100px;
 }
