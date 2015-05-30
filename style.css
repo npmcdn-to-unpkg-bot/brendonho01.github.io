@@ -1,5 +1,5 @@
 body{
-  background-image: url("http://khongthe.com/wallpapers/architecture/city-street-224368.jpg");
+  
   background-color: white;
 }
 #title{
@@ -83,4 +83,7 @@ margin-top: -180;
 img{
   margin-top: 35;
   margin-left: 650;
+}
+header{
+  background-image: url("http://khongthe.com/wallpapers/architecture/city-street-224368.jpg");
 }
