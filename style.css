@@ -8,11 +8,11 @@ body{
   font-weight: 500;
   text-align: center;
   font-size: 60;
-  color: black;
+  color: white;
   margin-top: 200;
 }
 #top{
-  color: black;
+  color: white;
   font-family: sans-serif;
   font-size: 15;
   position: fixed;
@@ -20,7 +20,7 @@ body{
 margin-top: -180;
 }
 #aml{
-color: black;
+color: white;
   font-family: sans-serif;
   font-size: 15;
   position: fixed;
@@ -29,7 +29,7 @@ margin-top: -180;
 
 }
 #desc{
-  color: black;
+  color: white;
   font-family: sans-serif;
   font-weight: 100;
   text-align: center;
@@ -37,7 +37,7 @@ margin-top: -180;
   margin-top: 30;
 }
 #aboutbho{
-  color: black;
+  color: white;
   font-family: sans-serif;
   font-weight: 400;
   text-align: center;
@@ -45,7 +45,7 @@ margin-top: -180;
   margin-top: 350;
 }
 .aboutbhodesc{
-  color: black;
+  color: white;
   font-family: sans-serif;
   font-weight: 400;
   text-align: center;
