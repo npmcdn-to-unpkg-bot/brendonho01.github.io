@@ -1,4 +1,4 @@
-# brendonho01.github.io
-a site for me!!!!
-Join it PLS
+#brendonho01's Website
+This is a site for me
+Take a look at it
 
