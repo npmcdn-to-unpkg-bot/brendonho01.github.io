@@ -33,6 +33,7 @@ body{
 }
 .navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
 	background-color: rgba(0,0,0,0.7);
+	color: #009688;
 }
 #face{
 	border-radius: 50%;
@@ -44,9 +45,10 @@ body{
 }
 #bho{
 	text-align: center;
-	vertical-align: middle;
 	display: table-cell;
+	vertical-align: middle;
 }
 .container{
 	display: table;
+	margin-top: 550px;
 }
