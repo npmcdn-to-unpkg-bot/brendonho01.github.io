@@ -16,7 +16,6 @@ body{
     color: #fff;
     font-size: 50px !important;
     padding-top: 65px !important;
-    padding-right: 50px !important;
 }
 .navbar-brand:hover{
     color: #d3d3d3;
@@ -75,13 +74,11 @@ p{
 	font-family: 'Montserrat', sans-serif;
 	color: #009688;
 }
-.fa-angle-down{
+.fa-bars{
 	color: #009688;
-	font-weight: 900px;
-	line-height: 100px;
-    height: 100px;
-    padding-top: 50px !important;
+	line-height: 150px;
+    height: 50px;
+    padding-top: 40px !important;
     padding-right: 50px !important;
     font-family: 'Montserrat', sans-serif;
-
 }
