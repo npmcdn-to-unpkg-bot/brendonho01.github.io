@@ -88,3 +88,11 @@ ul{
 .fa{
 	color:white;
 }
+#facetitle{
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #009688;
+}
