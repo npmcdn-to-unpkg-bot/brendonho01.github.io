@@ -75,3 +75,13 @@ p{
 	font-family: 'Montserrat', sans-serif;
 	color: #009688;
 }
+.fa-angle-down{
+	color: #009688;
+	font-weight: 900px;
+	line-height: 100px;
+    height: 100px;
+    padding-top: 50px !important;
+    padding-right: 50px !important;
+    font-family: 'Montserrat', sans-serif;
+
+}
