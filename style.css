@@ -20,11 +20,11 @@ body{
 }
 .navbar-custom{
 	background:  rgba(0,0,0,0.7);
-		min-height: 1000px;
+	min-height: 1000px;
 }
 
 .navbar-nav li a{
-	   line-height: 150px;
+	line-height: 150px;
     height: 150px;
     padding-top: 65px !important;
     padding-right: 50px !important;
@@ -39,8 +39,8 @@ body{
 	border-width: 2px;
 	border-style: solid;
 	border-color: #009688;
-	 width: 150px;
-	 height: 150px;
+	width: 150px;
+	height: 150px;
 }
 #bho{
 	text-align: center;
@@ -48,5 +48,5 @@ body{
 	display: table-cell;
 }
 .container{
-display: table;
+	display: table;
 }
