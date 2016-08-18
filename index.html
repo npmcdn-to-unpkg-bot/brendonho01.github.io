@@ -25,14 +25,33 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-      <li class = "" id = "about"><a href="">ABOUT</a></li>
-      <li class = "" id = "works"><a href="#" data-toggle="popover" title = "About Me" data-content = "Hello">WORKS</a></li>
+      <li class = "" id = "about"><a href="" data-toggle="modal" data-target="#myModal">ABOUT</a></li>
+      <li class = "" id = "works"><a href="">WORKS</a></li>
 </ul>
     </div>
   </div>
 </nav>
 <div class="container">
 <div id = "bho" onclick="animation()"><img id = "face" src="bho.png"></div>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">ABOUT ME</h4>
+        </div>
+        <div class="modal-body">
+          <p>I am a 15 year old high-schooler who enjoys amateur programming in his free time. I have been programming for a little over 2 years and I don't plan to stop at anytime. I love to create and design small websites. I am fluent in HTML, CSS and I'm starting to get the hang of JavaScript. I'm starting to get more into C++. I hope to learn more and more as time progresses.
+            <br>
+            <br>
+            I have other passions besides programming. I love to listen to and play music. I listen to a large variety of songs(edm, hiphop, pop, classical etc.). I am also a passionate cellist. I have won 1st place in a Carnigie Hall competition and participated in Regionals for two years. I have also particpated in the school's pit orchestra fundraiser Music From The Heart. I currently participate in an advanced youth orchestra called GPYO located in the Montgomery High School. I also love to practice photography and play Ultimate Frisbee.
+        </div>
+      </div>
+      
+    </div>
+  </div>
 </div>
 </body>
 <script>

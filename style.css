@@ -58,3 +58,10 @@ body{
 .icon-bar{
 	color: #009688;
 }
+p{
+	font-family: 'Raleway', sans-serif;
+}
+.modal-title{
+	font-family: 'Montserrat', sans-serif;
+	color: #009688;
+}
