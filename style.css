@@ -45,10 +45,10 @@ body{
 	width: 300px;
 	height: 300px;
 	opacity:0;
--moz-transition: opacity 2s; /* Firefox 4 */
--webkit-transition: opacity 2s; /* Safari and Chrome */
--o-transition: opacity 2s;
-transition: opacity 2s;
+-moz-transition: opacity 7s; /* Firefox 4 */
+-webkit-transition: opacity 7s; /* Safari and Chrome */
+-o-transition: opacity 7s;
+transition: opacity 7s;
 }
 #bho{
 	text-align: center;
@@ -66,14 +66,12 @@ transition: opacity 2s;
  	background-size: cover;
  	-o-background-size: cover; 
 }
-@media {
-
-}
 .icon-bar{
 	background-color: #009688;
 }
 p{
 	font-family: 'Raleway', sans-serif;
+	text-align: center;
 }
 .modal-title{
 	font-family: 'Montserrat', sans-serif;
@@ -100,4 +98,26 @@ ul{
 	border-width: 2px;
 	border-style: solid;
 	border-color: #009688;
+	text-align: center;
+}
+#piccenter{
+	text-align: center;
+}
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
