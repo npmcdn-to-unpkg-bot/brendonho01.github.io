@@ -20,7 +20,7 @@ body{
 }
 .navbar-custom{
 	background:  rgba(0,0,0,0.7);
-	min-height: 1000px;
+    height: 150px;
 }
 
 .navbar-nav li a{
@@ -51,4 +51,10 @@ body{
 .container{
 	display: table;
 	margin-top: 550px;
+}
+@media {
+
+}
+.icon-bar{
+	color: #009688;
 }
