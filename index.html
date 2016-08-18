@@ -34,7 +34,7 @@
   </div>
 </nav>
 
-<div id = "bho"><img id = "face" src="bho.png">
+<div id = "bho"><img id = "face" onload="this.style.opacity='1';" src="bho.png">
 <div class = "hide" id = "hidethis">
 <ul class = "list-inline">
 <li class = "items"><a href = "https://github.com/brendonho01"><i class="fa fa-github fa-3x"></i></a></li>
@@ -77,7 +77,7 @@
 </div>
 </body>
 <script>
-var bho = document.getElementById("bho");
+var face = document.getElementById("face");
 bho.addEventListener('click', e=> {
   document.getElementById("hidethis").classList.remove('hide');
 });
