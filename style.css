@@ -1,7 +1,10 @@
+html, body{
+	margin: 0px;
+	height: 100% !important;
+
+}
 body{
 	background: url("bg.jpg");
-	width: 100%;
-	height: 100%;
 }
 .navbar-brand{
 	font-family: 'Montserrat', sans-serif;
@@ -45,18 +48,25 @@ body{
 }
 #bho{
 	text-align: center;
-	display: table-cell;
 	vertical-align: middle;
+	display: table-cell;
 }
-.container{
+.amazing{
 	display: table;
-	margin-top: 550px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	background-size: cover;
+ 	-o-background-size: cover; 
 }
 @media {
 
 }
 .icon-bar{
-	color: #009688;
+	background-color: #009688;
 }
 p{
 	font-family: 'Raleway', sans-serif;
