@@ -82,3 +82,9 @@ p{
     padding-right: 50px !important;
     font-family: 'Montserrat', sans-serif;
 }
+ul{
+	list-style-type: none;
+}
+.fa{
+	color:white;
+}

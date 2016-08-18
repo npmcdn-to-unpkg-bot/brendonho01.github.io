@@ -1,1 +1,5 @@
-var bho = document.getElementById('bho');
+$(document).ready(function(){
+	$("#bho").on('click', function(){
+		console.log("hello");
+	});
+});
