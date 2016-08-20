@@ -121,3 +121,35 @@ ul{
   text-align: left;
   vertical-align: middle;
 }
+.list-inline{
+	float: left;
+}
+#gh:hover{
+	color: #000;
+}
+#g:hover{
+	color: #db3236;
+}
+#sc:hover{
+	color: #ff3a00;
+}
+#s:hover{
+	color: #6ae368;
+}
+#yt:hover{
+	color: #bb0000;
+}
+.imageRot {
+   -webkit-animation:spin 0.5s ease-in-out;
+    -moz-animation:spin 0.5s ease-in-out;
+    animation:spin 0.5s ease-in-out;
+}
+@-moz-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}

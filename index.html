@@ -16,7 +16,7 @@
   <script src = "stuff.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cormorant+SC|Montserrat:700|Raleway" rel="stylesheet">
 </head>
-<div class="amazing">
+<div class="amazing" id = "rot" data-role = "page">
 <body>
 <nav class="navbar navbar-custom navbar-fixed-top">
   <div class="container-fluid">
@@ -34,14 +34,14 @@
   </div>
 </nav>
 
-<div id = "bho"><img id = "face" onload="this.style.opacity='1';" src="bho.png">
+<div id = "bho"><img class = "facerotate" id = "face" onload="this.style.opacity='1';" src="bho.png"/>
 <div class = "hide" id = "hidethis">
-<ul class = "list-inline">
-<li class = "items"><a href = "https://github.com/brendonho01"><i class="fa fa-github fa-3x"></i></a></li>
-<li class = "items"><a href = "https://plus.google.com/+BHo01"><i class="fa fa-google fa-3x"></i></a></li>
-<li class = "items"><a href="https://soundcloud.com/the-359367347"><i class="fa fa-soundcloud fa-3x"></i></a></li>
-<li class = "items"><a href="https://open.spotify.com/user/b_ho01"><i class="fa fa-spotify fa-3x"></i></a></li>
-<li class = "items"><a href="https://www.youtube.com/channel/UCEIKL_uusvSIeZolNNiPbRA"><i class="fa fa-youtube fa-3x" aria-hidden="true"></i>
+<ul class = "list">
+<li class = "items"><a href = "https://github.com/brendonho01"><i class="fa fa-github fa-3x" id = "gh"></i></a></li>
+<li class = "items"><a href = "https://plus.google.com/+BHo01"><i class="fa fa-google fa-3x" id = "g"></i></a></li>
+<li class = "items"><a href="https://soundcloud.com/the-359367347"><i class="fa fa-soundcloud fa-3x" id = "sc"></i></a></li>
+<li class = "items"><a href="https://open.spotify.com/user/b_ho01"><i class="fa fa-spotify fa-3x" id = "s"></i></a></li>
+<li class = "items"><a href="https://www.youtube.com/channel/UCEIKL_uusvSIeZolNNiPbRA" ><i class="fa fa-youtube fa-3x" aria-hidden="true" id = "yt"></i>
 </a></li>
 </ul>
 </div>
@@ -96,7 +96,16 @@ var hidethis = document.getElementById("hidethis");
 }
 face.addEventListener('click', e=> {
   hidethis.classList.remove('hide');
-  fadeIn(hidethis);
+
 });
+$("#face").on("click", function(){       
+    $(this).addClass("imageRot").one('webkitAnimationEnd mozAnimationEnd oAnimationEnd msAnimationEnd animationend', function () {
+        $(this).removeClass("imageRot"); //remove anim class
+        var url = $(this).data('linkurl'); //get url from data-attribute
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", url);
+        $("#hidethis").removeClass("hide"); //navigate to page      
+    });
+});
+
 </script>
 </html>
