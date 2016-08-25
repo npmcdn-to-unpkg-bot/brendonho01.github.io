@@ -34,9 +34,8 @@
   </div>
 </nav>
 
-<div id = "bho"><img class = "facerotate" id = "face" onload="this.style.opacity='1';" src="bho.png"/>
-<div class = "hide" id = "hidethis">
-<ul class = "list">
+<div id = "bho""><img class = "facerotate" id = "face" onload="this.style.opacity='1';" src="bho.png" data-toggle="collapse" data-target="#hidethis"/>
+<ul class = "list collapse" id = "hidethis">
 <li class = "items"><a href = "https://github.com/brendonho01"><i class="fa fa-github fa-3x" id = "gh"></i></a></li>
 <li class = "items"><a href = "https://plus.google.com/+BHo01"><i class="fa fa-google fa-3x" id = "g"></i></a></li>
 <li class = "items"><a href="https://soundcloud.com/the-359367347"><i class="fa fa-soundcloud fa-3x" id = "sc"></i></a></li>
@@ -44,7 +43,6 @@
 <li class = "items"><a href="https://www.youtube.com/channel/UCEIKL_uusvSIeZolNNiPbRA" ><i class="fa fa-youtube fa-3x" aria-hidden="true" id = "yt"></i>
 </a></li>
 </ul>
-</div>
 </div>
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
@@ -94,16 +92,11 @@ var hidethis = document.getElementById("hidethis");
 
   tick();
 }
-face.addEventListener('click', e=> {
-  hidethis.classList.remove('hide');
-
-});
 $("#face").on("click", function(){       
     $(this).addClass("imageRot").one('webkitAnimationEnd mozAnimationEnd oAnimationEnd msAnimationEnd animationend', function () {
         $(this).removeClass("imageRot"); //remove anim class
         var url = $(this).data('linkurl'); //get url from data-attribute
-        $( ":mobile-pagecontainer" ).pagecontainer( "change", url);
-        $("#hidethis").removeClass("hide"); //navigate to page      
+        $( ":mobile-pagecontainer" ).pagecontainer( "change", url);     
     });
 });
 

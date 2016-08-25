@@ -121,8 +121,9 @@ ul{
   text-align: left;
   vertical-align: middle;
 }
-.list-inline{
-	float: left;
+.list{
+	margin-left: -40px;
+	margin-top: 25px;
 }
 #gh:hover{
 	color: #000;
@@ -140,9 +141,9 @@ ul{
 	color: #bb0000;
 }
 .imageRot {
-   -webkit-animation:spin 0.5s ease-in-out;
-    -moz-animation:spin 0.5s ease-in-out;
-    animation:spin 0.5s ease-in-out;
+   -webkit-animation:spin 0.25s ease-in-out;
+    -moz-animation:spin 0.25s ease-in-out;
+    animation:spin 0.25s ease-in-out;
 }
 @-moz-keyframes spin {
     100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
