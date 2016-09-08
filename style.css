@@ -42,8 +42,8 @@ body{
 	border-width: 2px;
 	border-style: solid;
 	border-color: #009688;
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	opacity:0;
 -moz-transition: opacity 7s; /* Firefox 4 */
 -webkit-transition: opacity 7s; /* Safari and Chrome */
@@ -92,8 +92,8 @@ ul{
 	color:white;
 }
 #facetitle{
-	width: 325px;
-	height: 325px;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
 	border-width: 2px;
 	border-style: solid;
@@ -139,6 +139,9 @@ ul{
 }
 #yt:hover{
 	color: #bb0000;
+}
+#fb:hover{
+	color: #3B5998;
 }
 .imageRot {
    -webkit-animation:spin 0.25s ease-in-out;
