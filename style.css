@@ -1,6 +1,8 @@
 html, body{
 	margin: 0px;
 	height: 100% !important;
+	width: 100%;
+	display: table;
 
 }
 body{
@@ -50,21 +52,13 @@ body{
 -o-transition: opacity 7s;
 transition: opacity 7s;
 }
-#bho{
-	text-align: center;
+#center{
+	text-align: center !important;
 	vertical-align: middle;
 	display: table-cell;
-}
-.amazing{
-	display: table;
-	text-align: center;
-	width: 100%;
-	height: 100%;
-	position: relative;
-	  	-webkit-background-size: cover;
- 	-moz-background-size: cover;
- 	background-size: cover;
- 	-o-background-size: cover; 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100px;
+	color: #fff;
 }
 .icon-bar{
 	background-color: #009688;
@@ -72,6 +66,7 @@ transition: opacity 7s;
 p{
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
+	color: #fff;
 }
 .modal-title{
 	font-family: 'Montserrat', sans-serif;
@@ -156,4 +151,48 @@ ul{
 }
 @keyframes spin { 
     100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
+.modal-fullscreen {
+  background: transparent;
+}
+.modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #ffffff;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: .97;
+  filter: alpha(opacity=97);
+}
+
+.modal-fullscreen .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-fullscreen .modal-dialog {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-fullscreen .modal-dialog {
+     width: 1170px;
+  }
+}
+#myModal{
+	background-color: #000 !important;
+}
+h4{
+	text-align: center !important;
 }

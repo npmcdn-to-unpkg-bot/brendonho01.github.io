@@ -16,7 +16,7 @@
   <script src = "stuff.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cormorant+SC|Montserrat:700|Raleway" rel="stylesheet">
 </head>
-<div class="amazing" id = "rot" data-role = "page">
+
 <body>
 <nav class="navbar navbar-custom navbar-fixed-top">
   <div class="container-fluid">
@@ -24,7 +24,6 @@
       <button class="navbar-toggle" data-toggle="collapse" data-target="#collapse1">
         <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
       </button>
-      <a class="navbar-brand" href="index.html">BHO</a>
     </div>
     <div class="collapse navbar-collapse" id="collapse1">
       <ul class="nav navbar-nav navbar-right">
@@ -34,7 +33,16 @@
   </div>
 </nav>
 
-<div id = "bho""><img class = "facerotate" id = "face" onload="this.style.opacity='1';" src="bho.png" data-toggle="collapse" data-target="#hidethis"/>
+<div id = "center">B HO</div>
+
+  <div class="modal modal-fullscreen fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" id = "piccenter"><div id = "bho""><img class = "facerotate" id = "face" onload="this.style.opacity='1';" src="bho.png" data-toggle="collapse" data-target="#hidethis"/>
 <ul class = "list collapse" id = "hidethis">
 <li class = "items"><a href = "https://github.com/brendonho01"><i class="fa fa-github fa-3x" id = "gh"></i></a></li>
 <li class = "items"><a href = "https://plus.google.com/+BHo01"><i class="fa fa-google fa-3x" id = "g"></i></a></li>
@@ -44,15 +52,7 @@
 <li class = "items"><a href="https://www.facebook.com/profile.php?id=100013373198907"><i class="fa fa-facebook fa-3x" aria-hidden="true" id = "fb"></i></a></li>
 </a></li>
 </ul>
-</div>
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title" id = "piccenter"><img id = "facetitle" src="bho.png"></h4>
+</div></h4>
         </div>
         <div class="modal-body">
           <p>I am a 15 year old high-schooler who enjoys amateur programming in his free time. I have been programming for a little over 2 years and I don't plan to stop at anytime. I love to create and design small websites. I am fluent in HTML, CSS and I'm starting to get the hang of JavaScript. I'm starting to get more into C++. I hope to learn more and more as time progresses.
@@ -77,7 +77,7 @@
 </body>
 <script>
 var face = document.getElementById("face");
-var hidethis = document.getElementById("hidethis");
+var hidethis = document.getElementById("center");
   function fadeIn(hidethis) {
   hidethis.style.opacity = 0;
 
@@ -99,6 +99,14 @@ $("#face").on("click", function(){
         var url = $(this).data('linkurl'); //get url from data-attribute
         $( ":mobile-pagecontainer" ).pagecontainer( "change", url);     
     });
+});
+$(".modal-fullscreen").on('show.bs.modal', function () {
+  setTimeout( function() {
+    $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
+  }, 0);
+});
+$(".modal-fullscreen").on('hidden.bs.modal', function () {
+  $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
 });
 
 </script>
